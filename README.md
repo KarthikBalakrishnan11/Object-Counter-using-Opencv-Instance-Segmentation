@@ -5,23 +5,23 @@ This project has done using OpenCV, Python, and Deep Learning.
 
 First we’ll discuss the difference between image classification, object detection, instance segmentation, and semantic segmentation.
 
-**Image Classification:
+**Image Classification:**
 
 Image classification is a supervised learning problem, define a set of target classes (objects to identify in images), and train a model to recognize them using labeled example photos.
 
-**Object detection:
+**Object detection:**
 
 Object detection builds on image classification, but this time allows us to localize each object in an image. Using x,y bounding box co-ordinates with associated class label for each bounding box.
 
-**Semantic segmentation:
+**Semantic segmentation:**
 
 Semantic segmentation algorithms require us to associate every pixel in an input image with a class label. segmentation algorithms are capable of labeling every object in an image they cannot differentiate between two objects of the same class.
 
-**Instance segmentation:
+**Instance segmentation:**
 
 Instance segmentation compute a pixel-wise mask for every object in the image, even if the objects are of the same class label. This algorithm not only localized each individual class (also same class) but predicted their boundaries as well.
 
-**Mask R-CNN:
+**Mask R-CNN:**
 
 Using Mask R-CNN you can automatically segment and construct pixel-wise masks for every object in an image.
 
