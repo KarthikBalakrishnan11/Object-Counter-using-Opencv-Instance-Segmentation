@@ -5,7 +5,7 @@ This project has done using OpenCV, Python, and Deep Learning.
 
 First we’ll discuss the difference between image classification, object detection, instance segmentation, and semantic segmentation.
 
-Image Classification:
+#Image Classification:
 
 Image classification is a supervised learning problem, define a set of target classes (objects to identify in images), and train a model to recognize them using labeled example photos.
 
